@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="yash"
+		fetch="https://github.com/yashlearnpython" />	
+	<remote  name="lab"
+		fetch="https://github.com/Fussion-Lab" />	
+	
+    <project path="device/xiaomi/mido" name="android_device_xiaomi_vayu" remote="yash" revision="lineage-18.1" clone-depth="1" />
+	<project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido-1" remote="lab" revision="lineage-18.1" clone-depth="1" />
+	<project path="vendor/xiaomi" name="android_vendor_xiaomi_vayu" remote="lab" revision="lineage-18.1" clone-depth="1" />
+	
+</manifest>

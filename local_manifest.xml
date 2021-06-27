@@ -6,8 +6,8 @@
 	<remote  name="lab"
 		fetch="https://github.com/Fussion-Lab" />	
 	
-    <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="yash" revision="lineage-18.1" clone-depth="1" />
-	<project path="kernel/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="yash" revision="lineage-18.1" clone-depth="1" />
+        <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="yash" revision="lineage-18.1" clone-depth="1" />
+	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="yash" revision="lineage-18.1" clone-depth="1" />
 	<project path="vendor/xiaomi" name="android_vendor_xiaomi_vayu" remote="lab" revision="lineage-18.1" clone-depth="1" />
 	
 </manifest>

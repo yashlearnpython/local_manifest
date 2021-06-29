@@ -10,6 +10,6 @@
 	
         <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="vayu_lab" revision="eleven" clone-depth="1" />
 	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" remote="vayu_lab" revision="v4.14.237" clone-depth="1" />
-	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="vayu_lab" revision="lineage-18.1" clone-depth="1" />
+	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="vayu_lab" revision="eleven" clone-depth="1" />
 	
 </manifest>

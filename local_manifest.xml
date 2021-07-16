@@ -7,11 +7,14 @@
 		fetch="https://gitlab.com/xiaomi-sm8150-devs" />	
 	<remote  name="vayu_lab"
 		fetch="https://github.com/vayu-lab" />
+	<remote  name="clang"
+                fetch="https://github.com/kdrag0n" />
 	
         <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="vayu_lab" revision="Wave" clone-depth="1" />
 	<project path="kernel/xiaomi/sm8150" name="Jebaitedneko/android_kernel_xiaomi_vayu" remote="github" revision="base" clone-depth="1" />
 	<project path="device/xiaomi/sm8150-common" name="android_device_xiaomi_sm8150-common" remote="vayu_lab" revision="lineage-18.1" clone-depth="1" />
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="vayu_lab" revision="lineage-18.1" clone-depth="1" />
 	<project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="seba" revision="lineage-18.1" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
 </manifest>

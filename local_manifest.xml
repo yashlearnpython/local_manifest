@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote  name="github"
-		fetch="https://github.com" />	
+	<remote  name="yash"
+		fetch="https://github.com/yash3056" />	
 	<remote  name="seba"
 		fetch="https://gitlab.com/xiaomi-sm8150-devs" />	
 	<remote  name="vayu_lab"

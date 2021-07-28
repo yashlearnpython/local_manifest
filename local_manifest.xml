@@ -14,5 +14,8 @@
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="vayu_lab" revision="lineage-18.1" clone-depth="1" />
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="vayu_lab" revision="0db1dba93e5f2c38c97bfeeb4c10bb1b35126fa8" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+	#camera2
+	<remove-project name="platform_packages_apps_Camera2" />
+	<project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="yash" />
 	
 </manifest>

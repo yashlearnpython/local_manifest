@@ -16,6 +16,6 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	#camera2
 	<remove-project name="platform_packages_apps_Camera2" />
-	<project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="yash" />
+	<project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="yash" revision="11.x" clone-depth="1" />
 	
 </manifest>

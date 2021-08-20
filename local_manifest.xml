@@ -2,7 +2,7 @@
 <manifest>
 
 	<remote  name="yash"
-		fetch="https://github.com/yash3056" />
+		fetch="https://github.com/yashlearnpython" />
 	<remote  name="vayu_lab"
 		fetch="https://github.com/vayu-lab" />
 	<remote  name="clang"

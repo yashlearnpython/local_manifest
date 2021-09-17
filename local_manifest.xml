@@ -15,4 +15,9 @@
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="vayu_lab" revision="p404" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
+	# Hals
+	<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="P-404/android_hardware_qcom_audio" remote="github" revision="rippa-R-8150" clone-depth="1" />
+	<project path="hardware/qcom/display" name="P-404/android_hardware_qcom_display" remote="github" revision="rippa-R-8150" clone-depth="1" />
+	<project path="hardware/qcom/media" name="P-404/android_hardware_qcom_media" remote="github" revision="rippa-R-8150" clone-depth="1" />
+	
 </manifest>
